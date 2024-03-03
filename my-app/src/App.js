@@ -11,6 +11,11 @@ function PaginationTable() {
   useEffect(() => {
     fetchData();
   }, [currentPage]);
+  
+  useEffect(() => {
+    setTotalPages(Math.ceil(data.length / rowsPerPage));
+  }, [data, rowsPerPage]);
+  
 
   async function fetchData() {
     try {

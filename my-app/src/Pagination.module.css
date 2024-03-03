@@ -1,4 +1,28 @@
-.topRow th {
+.wrapper{
+  width: 100%;
+}
+
+.topRow {
+  font-weight: bold;
+  align-items: center;
+  width: 100%;
+}
+
+
+table {
+  width: auto;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  width: auto;
+}
+
+th {
   padding: 12px 16px;
   text-align: center;
   border-bottom: 1px solid gray;
@@ -6,43 +30,35 @@
   font-weight: bold;
   background-color: green;
   color:white;
-  /* display:flex; */
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
 }
 
-  td {
-  border: 1px solid white;
-  padding: 8px;
-  text-align: left;
-  background-color: whitesmoke;
-}
-
-.btn{
+.btn {
   display: flex;
-  gap: 15px;
   justify-content: center;
   align-items: center;
-  
-}
-.btn > p{
-  background-color: green;
-  color: white;
-  height: 30px;
-  width: 30px;
-  border-radius: 5px;
+  margin-top: 20px; /* Added margin to separate table from buttons */
 }
 
-.btn > button{
-  background-color: green;
+.btn button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #4caf50;
   color: white;
-  border-radius: 5px;
-  height: 25px;
+}
+
+.btn button:hover {
+  background-color: #45a049;
+}
+
+.btn button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+h1{
+  text-align: center;
 }
 
 
