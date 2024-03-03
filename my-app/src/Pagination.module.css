@@ -1,0 +1,65 @@
+.wrapper{
+  width: 100%;
+}
+
+.topRow {
+  font-weight: bold;
+  align-items: center;
+  width: 100%;
+}
+
+
+table {
+  width: auto;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  width: auto;
+}
+
+th {
+  padding: 12px 16px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: green;
+  color:white;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Added margin to separate table from buttons */
+}
+
+.btn button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn button:hover {
+  background-color: #45a049;
+}
+
+.btn button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+h1{
+  text-align: center;
+}
+
+
+
